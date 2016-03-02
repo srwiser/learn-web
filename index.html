@@ -1,38 +1,68 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
-    <link href='style.css' rel='stylesheet'>
-
-    
-  </head>
-  <body>
-
-    <div class="menu">
-      
-      <!-- Menu icon -->
-      <div class="icon-close">
-        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+<head>
+  <title>Youtube</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <header class="container">
+    <div class="row">
+      <h1 class="col-sm-4">Youtube</h1>
+      <nav class="col-sm-8 text-right">
+        <p>Home</p>
+        <p>Trending</p>
+        <p>Subscriptions</p>
+      </nav>
+    </div>
+  </header>
+  <section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <h2>Latest Videos</h2>
+        <h3>This Year's Best</h3>
+        <a class="btn btn-primary" href="#" role="button">See all</a>
       </div>
-
-      <!-- Menu -->
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Contact</a></li>
+    </div>
+  </section>
+  
+  <!-- Support Content Section -->
+  <section class="container">
+    <div class="row">
+      <figure class="col-sm-6">
+        <p>Science</p>
+        <img src="http://video.mit.edu/assets/img/channels/header/20120126180517.jpg" width=455 height=256 />
+      </figure>
+      <figure class="col-sm-6">
+        <p>Gaming</p>
+        <img src="http://startagamingchannel.com/wp-content/uploads/2016/02/playing-sony-console-controller-777x437.jpg" width=455 height=256 />
+      </figure>
+    </div>
+    <div class="row">
+      <figure class="col-sm-6">
+        <p>Music</p>
+        <img src="http://acidstag.com/wp-content/uploads/2015/07/Music-Video-Channel-46-608x356.jpg"width=455 height=256 />
+      </figure>
+      <figure class="col-sm-6">
+        <p>Virtual Reality</p>
+        <img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/05/0edd15bb-5954-4191-90d7-0385fcc8347a/resize/570xauto/57885ab80e6e044978aae722f7dcc12e/youtube-cardboard-vr-virtual-reality-0423.jpg" width=455 height=256 />
+      </figure>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2016 Youtube
+      </p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"/> </li>
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"/> </li>
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"/> </li>
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"/> </li>
       </ul>
     </div>
-
-    <!-- Main body -->
-    <div class="jumbotron">
-
-      <div class="icon-menu">
-        <i class="fa fa-bars"></i>
-        Menu
-      </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="app.js"></script>
-  </body>
+  </footer>
+</body>
 </html>
