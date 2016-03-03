@@ -28,6 +28,7 @@ header p {
   margin: 0;
 }
 
+/* Body Classes Start*/
 .jumbotron {
   display: flex;
   align-items: center;
@@ -54,6 +55,20 @@ header p {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+}
+
+img {
+  max-width: 500px;
+}
+
+.box-text {
+  display: flex;
+  justify-content: center;
+}
+
+.box-image {
+  display: flex;
+  justify-content: center;
 }
 
 .col-md-6 {
