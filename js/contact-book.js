@@ -8,12 +8,12 @@ function Person(firstName, lastName, phoneNumber, email) {
 }
 
 function add(person){
-contacts[contacts.length] = {
+contacts.push({
     firstName: person.firstName,
     lastName: person.lastName,
     phoneNumber: person.phoneNumber,
     email: person.email
-  };
+  });
 }
 
 function printPerson(person) {
